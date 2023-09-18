@@ -1,65 +1,89 @@
+/* Temel stil */
 body {
     font-family: 'Crafty Girls', cursive;
-    background-color: rgb(164, 207, 213);
+    background-color: #a4cfd5;
     margin: 0;
     padding: 0;
 }
-/* Container için stil */
-.container {
+nav {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 20px auto;
     padding: 20px;
-    background-color:#eed9ec;
-    border: 1px solid #9b8d9a;
+    background-color: #fff;
+    border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #666;
+    margin-top: 10px;
+}
+
+/* Liste stil */
+.movie-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+
+
+.movie-list li {
+    flex: 0 1 calc(33.33% - 20px);
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.movie-list ul{
+    color: #a4cfd5;
+}
+
+.movie-list h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+}
+
+.movie-list img {
+    max-width: 300px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Footer stil */
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
     text-align: center;
     margin-top: 20px;
 }
 
-/* Başlıklar için stil */
-h2 {
-    font-size: 28px;
-    font-weight: bold;
-    color: #333;
-}
-h3 {
-    font-size: 22px;
-    font-weight: bold;
-    color: #424242; 
-    margin-right: 20px;
-    text-decoration: none;
-}
-/* Paragraflar için stil */
-  p {
-    font-size: 16px;
-    color: #444;
-}
-a{
-    text-decoration: none;
-    color: #424242;
-    text-decoration: underline;
-}
-/* Metin stil tanımlamaları */
- footer{
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #eed9ec;
-    border: 1px solid #9b8d9a;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    margin-top: 30px;
-}
-
-footer p {
-    margin: 0; /* Paragrafın kenar boşluğunu kaldırma */
-    font-size: 16px;
-
-}
-
 .material-icons {
-    font-size: 24px;
+    font-size: 36px;
     vertical-align: middle;
+    color: #354d50;
 }
