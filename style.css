@@ -1,44 +1,65 @@
- body{
+body {
     font-family: 'Crafty Girls', cursive;
     background-color: rgb(164, 207, 213);
     margin: 0;
     padding: 0;
-
 }
 /* Container için stil */
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #eed9ec;
-    border: 1px solid #eed9ec;
+    background-color:#eed9ec;
+    border: 1px solid #9b8d9a;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-} 
+    margin-top: 20px;
+}
 
 /* Başlıklar için stil */
 h2 {
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
     color: #333;
 }
-
 h3 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
-    color: #424242;
-    display: inline-block; 
+    color: #424242; 
     margin-right: 20px;
     text-decoration: none;
 }
-
 /* Paragraflar için stil */
-p {
+  p {
     font-size: 16px;
     color: #444;
 }
-
 a{
+    text-decoration: none;
     color: #424242;
+    text-decoration: underline;
+}
+/* Metin stil tanımlamaları */
+ footer{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #eed9ec;
+    border: 1px solid #9b8d9a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 0; /* Paragrafın kenar boşluğunu kaldırma */
+    font-size: 16px;
+
+}
+
+.material-icons {
+    font-size: 24px;
+    vertical-align: middle;
 }
